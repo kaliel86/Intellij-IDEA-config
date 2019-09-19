@@ -4,4 +4,10 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="l" value="&lt;?= $this-&gt;Html-&gt;link('$NAME$', [$END$]);?&gt;" description="Cakephp link" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
