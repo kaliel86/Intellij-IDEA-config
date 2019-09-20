@@ -10,4 +10,10 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="ie" value="&lt;?php if($CONDITION$):?&gt;&#10;    $END$&#10;&lt;?php endif;?&gt;" description="IF endif" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
